@@ -1,14 +1,14 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	PEAR_PackageFileManager_Plugins
+%include	/usr/lib/rpm/macros.php
 Summary:	Plugins for PEAR_PackageFileManager to pick up what files to use
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4e9136999ee1f70b1e49d1cf96f50f92
+# Source0-md5:	0bb8d0ad9692f7e8a3c5a4d581df1fe9
 URL:		http://pear.php.net/package/PEAR_PackageFileManager_Plugins/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
@@ -17,7 +17,7 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.571
 Requires:	php-pear
 Requires:	php-pear-PEAR_PackageFileManager >= 1.7.0
-Requires:	php-pear-XML_Serializer >= 0.18.0
+Requires:	php-pear-XML_Serializer >= 0.19.0
 Suggests:	php-simplexml
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
