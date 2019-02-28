@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Plugins for PEAR_PackageFileManager to pick up what files to use
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.4
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	0bb8d0ad9692f7e8a3c5a4d581df1fe9
+# Source0-md5:	1446670a449361244b29d097ea986db3
 URL:		http://pear.php.net/package/PEAR_PackageFileManager_Plugins/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
