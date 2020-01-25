@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	PEAR_PackageFileManager_Plugins
-%include	/usr/lib/rpm/macros.php
 Summary:	Plugins for PEAR_PackageFileManager to pick up what files to use
 Name:		php-pear-%{_pearname}
 Version:	1.0.4
